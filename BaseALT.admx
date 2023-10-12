@@ -151,10 +151,7 @@
     <category name="ALT_TokenPolkit" displayName="$(string.ALT_TokenPolkit)" explainText="$(string.ALT_TokenPolkit_Help)">
       <parentCategory ref="ALT_Polkit" />
     </category>
-    <category name="ALT_DisplayManagerPolkit" displayName="$(string.ALT_DisplayManagerPolkit)" explainText="$(string.ALT_DisplayManagerPolkit_Help)">
-      <parentCategory ref="ALT_Polkit" />
-    </category>
-    <category name="ALT_ModemManagerPolkit" displayName="$(string.ALT_ModemManagerPolkit)" explainText="$(string.ALT_ModemManagerPolkit_Help)">
+    <category name="ALT_DisplayManagerPolkit" displayName="$(string.ALT_DisplayManagerPolkit)" explainText="$(string.ALT_DisplayManagerPolkit_help)">
       <parentCategory ref="ALT_Polkit" />
     </category>
   </categories>

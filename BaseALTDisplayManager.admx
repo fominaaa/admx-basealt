@@ -8,12 +8,12 @@
   </policyNamespaces>
   <resources minRequiredRevision="1.0" />
   <policies>
-    <policy class="Machine" displayName="$(string.DispManAnyPolkit)"
-        explainText="$(string.DispManAnyPolkit_Help)"
+    <policy class="Machine" displayName="$(string.org-freedesktop-DisplayManager-AccountsService-ModifyAny)"
+        explainText="$(string.org-freedesktop-DisplayManager-AccountsService-ModifyAny_help)"
         key="Software\BaseALT\Policies\Polkit"
         name="org.freedesktop.DisplayManager.AccountsService.ModifyAny"
         valuename="org.freedesktop.DisplayManager.AccountsService.ModifyAny"
-        presentation="$(presentation.DispManAnyPolkit-pr)">
+        presentation="$(presentation.org-freedesktop-DisplayManagerPolkit-pr)">
       <parentCategory ref="system:ALT_DisplayManagerPolkit" />
       <supportedOn ref="system:SUPPORTED_AltP10" />
       <elements>
@@ -59,12 +59,12 @@
         </boolean>
       </elements>
     </policy>
-    <policy class="User" displayName="$(string.DispManAnyPolkit)"
-        explainText="$(string.DispManAnyPolkitUser_Help)"
+    <policy class="User" displayName="$(string.org-freedesktop-DisplayManager-AccountsService-ModifyAny)"
+        explainText="$(string.org-freedesktop-DisplayManager-AccountsService-ModifyAny-user_help)"
         key="Software\BaseALT\Policies\Polkit"
         name="org.freedesktop.DisplayManager.AccountsService.ModifyAnyUser"
         valuename="org.freedesktop.DisplayManager.AccountsService.ModifyAny"
-        presentation="$(presentation.DispManAnyPolkit-pr)">
+        presentation="$(presentation.org-freedesktop-DisplayManagerPolkit-user-pr)">
       <parentCategory ref="system:ALT_DisplayManagerPolkit" />
       <supportedOn ref="system:SUPPORTED_AltP10" />
       <elements>
@@ -110,12 +110,12 @@
         </boolean>
       </elements>
     </policy>
-    <policy class="Machine" displayName="$(string.DispManOwnPolkit)"
-        explainText="$(string.DispManOwnPolkit_Help)"
+    <policy class="Machine" displayName="$(string.org-freedesktop-DisplayManager-AccountsService-ModifyOwn)"
+        explainText="$(string.org-freedesktop-DisplayManager-AccountsService-ModifyOwn_help)"
         key="Software\BaseALT\Policies\Polkit"
         name="org.freedesktop.DisplayManager.AccountsService.ModifyOwn"
         valuename="org.freedesktop.DisplayManager.AccountsService.ModifyOwn"
-        presentation="$(presentation.DispManOwnPolkit-pr)">
+        presentation="$(presentation.org-freedesktop-DisplayManagerPolkit-pr)">
       <parentCategory ref="system:ALT_DisplayManagerPolkit" />
       <supportedOn ref="system:SUPPORTED_AltP10" />
       <elements>
@@ -161,12 +161,12 @@
         </boolean>
       </elements>
      </policy>
-     <policy class="User" displayName="$(string.DispManOwnPolkit)"
-        explainText="$(string.DispManOwnPolkitUser_Help)"
+     <policy class="User" displayName="$(string.org-freedesktop-DisplayManager-AccountsService-ModifyOwn)"
+        explainText="$(string.org-freedesktop-DisplayManager-AccountsService-ModifyOwn-user_help)"
         key="Software\BaseALT\Policies\Polkit"
         name="org.freedesktop.DisplayManager.AccountsService.ModifyOwnUser"
         valuename="org.freedesktop.DisplayManager.AccountsService.ModifyOwn"
-        presentation="$(presentation.DispManOwnPolkit-pr)">
+        presentation="$(presentation.org-freedesktop-DisplayManagerPolkit-user-pr)">
       <parentCategory ref="system:ALT_DisplayManagerPolkit" />
       <supportedOn ref="system:SUPPORTED_AltP10" />
       <elements>
@@ -212,12 +212,12 @@
         </boolean>
       </elements>
      </policy>
-     <policy class="Machine" displayName="$(string.DispManReadAnyPolkit)"
-        explainText="$(string.DispManReadAnyPolkit_Help)"
+     <policy class="Machine" displayName="$(string.org-freedesktop-DisplayManager-AccountsService-ReadAny)"
+        explainText="$(string.org-freedesktop-DisplayManager-AccountsService-ReadAny_help)"
         key="Software\BaseALT\Policies\Polkit"
         name="org.freedesktop.DisplayManager.AccountsService.ReadAny"
         valuename="org.freedesktop.DisplayManager.AccountsService.ReadAny"
-        presentation="$(presentation.DispManReadAnyPolkit-pr)">
+        presentation="$(presentation.org-freedesktop-DisplayManagerPolkit-pr)">
       <parentCategory ref="system:ALT_DisplayManagerPolkit" />
       <supportedOn ref="system:SUPPORTED_AltP10" />
       <elements>
@@ -263,12 +263,12 @@
         </boolean>
       </elements>
     </policy>
-    <policy class="User" displayName="$(string.DispManReadAnyPolkit)"
-        explainText="$(string.DispManReadAnyPolkitUser_Help)"
+    <policy class="User" displayName="$(string.org-freedesktop-DisplayManager-AccountsService-ReadAny)"
+        explainText="$(string.org-freedesktop-DisplayManager-AccountsService-ReadAny-user_help)"
         key="Software\BaseALT\Policies\Polkit"
         name="org.freedesktop.DisplayManager.AccountsService.ReadAnyUser"
         valuename="org.freedesktop.DisplayManager.AccountsService.ReadAny"
-        presentation="$(presentation.DispManReadAnyPolkit-pr)">
+        presentation="$(presentation.org-freedesktop-DisplayManagerPolkit-user-pr)">
       <parentCategory ref="system:ALT_DisplayManagerPolkit" />
       <supportedOn ref="system:SUPPORTED_AltP10" />
       <elements>
