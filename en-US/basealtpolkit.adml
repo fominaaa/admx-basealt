@@ -1018,8 +1018,8 @@ Possible values:
 Note: the possession of administrative rights in a PolicyKit context is determined by its rules. By default, Alt asks for the password of a user in the "wheel" group.
 
       </string>
-      <string id="org-freedesktop-udisks2-encrypted-change-passphrase-system">Permission to change passphrase for an encrypted device</string>
-      <string id="org-freedesktop-udisks2-encrypted-change-passphrase-system_help">The policy restricts the ability to change passphrase for an encrypted device
+      <string id="org-freedesktop-udisks2-encrypted-change-passphrase-system">Permission to change system passphrase for an encrypted device</string>
+      <string id="org-freedesktop-udisks2-encrypted-change-passphrase-system_help">The policy restricts the ability to change system passphrase for an encrypted device
 
 Disabled/Unconfigured — restrictions are defined by system parameters.
 
@@ -1044,8 +1044,8 @@ Note: the possession of administrative rights in a PolicyKit context is determin
 The "Block" option prevents the user from changing this setting. Blocking a policy makes it a priority over a similar policy for the user.
 
       </string>
-      <string id="org-freedesktop-udisks2-encrypted-change-passphrase-system-user">Permission to change passphrase for an encrypted device</string>
-      <string id="org-freedesktop-udisks2-encrypted-change-passphrase-system-user_help">The policy restricts the ability to change passphrase for an encrypted device
+      <string id="org-freedesktop-udisks2-encrypted-change-passphrase-system-user">Permission to change system passphrase for an encrypted device</string>
+      <string id="org-freedesktop-udisks2-encrypted-change-passphrase-system-user_help">The policy restricts the ability to change system passphrase for an encrypted device
 
 Disabled/Unconfigured — restrictions are defined by system parameters.
 
