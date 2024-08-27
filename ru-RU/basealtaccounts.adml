@@ -56,8 +56,8 @@
 Примечание: обладание административными правами в контексте PolicyKit определяются его правилами. По умолчанию в Альт запрашивается пароль пользователя, находящегося в группе «wheel».
 
       </string>
-      <string id="org-freedesktop-accounts-change-own-user-data">Ограничение возможности изменения собственных пользовательских данных</string>
-      <string id="org-freedesktop-accounts-change-own-user-data_help">Политика ограничивает возможность изменения собственных пользовательских данных 
+      <string id="org-freedesktop-accounts-change-own-user-data">Ограничение возможности изменения личных пользовательских данных</string>
+      <string id="org-freedesktop-accounts-change-own-user-data_help">Политика ограничивает возможность изменения личных пользовательских данных 
 
 Отключено/Не сконфигурировано — ограничения определяются системными параметрами.
 
@@ -82,8 +82,8 @@
 Опция «Блокировать» — запрещает изменение данной настройки пользователем. Блокировка политики делает её приоритетнее аналогичной политики для пользователя.
 
       </string>
-      <string id="org-freedesktop-accounts-change-own-user-data-user">Ограничение возможности изменения собственных пользовательских данных</string>
-      <string id="org-freedesktop-accounts-change-own-user-data-user_help">Политика ограничивает возможность изменения собственных пользовательских данных 
+      <string id="org-freedesktop-accounts-change-own-user-data-user">Ограничение возможности изменения личных пользовательских данных</string>
+      <string id="org-freedesktop-accounts-change-own-user-data-user_help">Политика ограничивает возможность изменения личных пользовательских данных
 
 Отключено/Не сконфигурировано — ограничения определяются системными параметрами.
 
@@ -106,8 +106,8 @@
 Примечание: обладание административными правами в контексте PolicyKit определяются его правилами. По умолчанию в Альт запрашивается пароль пользователя, находящегося в группе «wheel».
 
       </string>
-      <string id="org-freedesktop-accounts-set-login-option">Ограничение возможности изменения конфигурации экрана входа в систему</string>
-      <string id="org-freedesktop-accounts-set-login-option_help">Политика ограничивает возможность изменения конфигурации экрана входа в систему
+      <string id="org-freedesktop-accounts-set-login-option">Ограничение возможности изменения настроек экрана входа в систему</string>
+      <string id="org-freedesktop-accounts-set-login-option_help">Политика ограничивает возможность изменения настроек экрана входа в систему
 
 Отключено/Не сконфигурировано — ограничения определяются системными параметрами.
 
@@ -132,8 +132,8 @@
 Опция «Блокировать» — запрещает изменение данной настройки пользователем. Блокировка политики делает её приоритетнее аналогичной политики для пользователя.
 
       </string>
-      <string id="org-freedesktop-accounts-set-login-option-user">Ограничение возможности изменения конфигурации экрана входа в систему</string>
-      <string id="org-freedesktop-accounts-set-login-option-user_help">Политика ограничивает возможность изменения конфигурации экрана входа в систему
+      <string id="org-freedesktop-accounts-set-login-option-user">Ограничение возможности изменения настроек экрана входа в систему</string>
+      <string id="org-freedesktop-accounts-set-login-option-user_help">Политика ограничивает возможность изменения настроек экрана входа в систему
 
 Отключено/Не сконфигурировано — ограничения определяются системными параметрами.
 
@@ -217,26 +217,13 @@
 
     </stringTable>
     <presentationTable>
-      <presentation id="org-freedesktop-accounts-change-own-password-pr">
+      <presentation id="org-freedesktop-accounts-pr">
        <dropdownList noSort="true" defaultItem="1" refId="OrgFreedesktopAccounts_setter">Варианты ограничений:</dropdownList>
        <checkBox refId="OrgFreedesktopAccounts_blocker">Блокировать</checkBox>
-       <text>Блокировка изменений данной настройки политикой пользователя. Блокировка политики делает её приоритетнее аналогичной политики для пользователя.</text>
       </presentation>
-      <presentation id="org-freedesktop-accounts-change-own-user-data-pr">
+      <presentation id="org-freedesktop-accounts-user-pr">
        <dropdownList noSort="true" defaultItem="1" refId="OrgFreedesktopAccounts_setter">Варианты ограничений:</dropdownList>
-       <checkBox refId="OrgFreedesktopAccounts_blocker">Блокировать</checkBox>
-       <text>Блокировка изменений данной настройки политикой пользователя. Блокировка политики делает её приоритетнее аналогичной политики для пользователя.</text>
-      </presentation>
-      <presentation id="org-freedesktop-accounts-set-login-option-pr">
-       <dropdownList noSort="true" defaultItem="1" refId="OrgFreedesktopAccounts_setter">Варианты ограничений:</dropdownList>
-       <checkBox refId="OrgFreedesktopAccounts_blocker">Блокировать</checkBox>
-       <text>Блокировка изменений данной настройки политикой пользователя. Блокировка политики делает её приоритетнее аналогичной политики для пользователя.</text>
-      </presentation>
-      <presentation id="org-freedesktop-accounts-user-administration-pr">
-       <dropdownList noSort="true" defaultItem="1" refId="OrgFreedesktopAccounts_setter">Варианты ограничений:</dropdownList>
-       <checkBox refId="OrgFreedesktopAccounts_blocker">Блокировать</checkBox>
-       <text>Блокировка изменений данной настройки политикой пользователя. Блокировка политики делает её приоритетнее аналогичной политики для пользователя.</text>
       </presentation>
     </presentationTable>
   </resources>
-</policyDefinitionResources>
+</policyDefinitionResources>  
