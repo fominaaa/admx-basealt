@@ -72,7 +72,7 @@
       <string id="ALT_TokenPolkit">Разрешения для работы с токенами и смарткартами</string>
       <string id="ALT_TokenPolkit_Help">Управление разрешениями для работы с токенами и смарткартами</string>
       <string id="ALT_DisplayManagerPolkit">Ограничения DisplayManager</string>
-      <string id="ALT_DisplayManagerPolkit_help">Управление polkit-ограничениями DisplayManager.</string>
+      <string id="ALT_DisplayManagerPolkit_help">Данная группа политик ограничивает доступ к интерфейсу lightdm. Lightdm - экранный менеджер ввода имени учётной записи и пароля пользователя для входа в систему.</string>
     </stringTable>
   </resources>
 </policyDefinitionResources>
