@@ -1435,5 +1435,28 @@
         <text id="String" valueName="mail.server.server1.port" required="true"/>
       </elements>
     </policy>
+     <policy name="mail_smtpserver_smtp1_try_ssl" class="Both" displayName="$(string.mail_smtpserver_smtp1_try_ssl)" explainText="$(string.mail_smtpserver_smtp1_try_ssl_Explain)" key="Software\Policies\Mozilla\Thunderbird\Preferences" presentation="$(presentation.mail_smtpserver_smtp1_try_ssl-pr)">
+     <parentCategory ref="PreferencesNew"/>
+      <supportedOn ref="SUPPORTED_ID_11"/>
+      <elements>
+        <enum id="mail_smtpserver_smtp1_try_ssl_setter" valueName="mail.smtpserver.smtp1.try_ssl">
+          <item displayName="$(string.No)">
+            <value>
+              <decimal value="0" />
+            </value>
+          </item>
+          <item displayName="$(string.STARTTLS)">
+            <value>
+              <decimal value="2" />
+            </value>
+          </item>
+          <item displayName="$(string.SSL/TLS)">
+            <value>
+              <decimal value="1" />
+            </value>
+          </item>
+        </enum>
+      </elements>
+    </policy>
   </policies>
 </policyDefinitions>

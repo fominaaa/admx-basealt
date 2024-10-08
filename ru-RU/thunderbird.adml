@@ -694,6 +694,9 @@ If this policy is disabled or not configured, websites are not filtered.</string
       <string id="AutoConfigProxy">Автоматическая конфигурация прокси</string>
       <string id="TrackingProtection">Защита от отслеживания (перемещено)</string>
       <string id="TrackingProtection_Explain">Если эта политика не настроена, защита от отслеживания не включена по умолчанию в браузере, но включена по умолчанию при приватном просмотре, и пользователь может изменить ее.
+      <string id="No">нет</string>
+      <string id="STARTTLS">STARTTLS</string>
+      <string id="SSL/TLS">SSL/TLS</string>
 
 Если эта политика отключена, защита от отслеживания отключена и заблокирована как в браузере, так и в режиме частного просмотра.
 
@@ -946,17 +949,19 @@ If this policy is enabled or not configured, user messaging preferences cannot b
 
 Если эта политика отключена или не настроена, Thunderbird будет обновляться в обычном режиме.</string>
       <string id="mail_smtpserver_smtp1_port">Порт сервера исходящей почты</string>
-      <string id="mail_smtpserver_smtp1_port_Explain">Задать порт сервера исходящей почты</string>
+      <string id="mail_smtpserver_smtp1_port_Explain">Задать порт сервера исходящей почты.</string>
       <string id="mail_server_server1_hostname">Имя сервера входящей почты</string>
-      <string id="mail_server_server1_hostname_Explain">Задать имя сервера входящей почты</string>
+      <string id="mail_server_server1_hostname_Explain">Задать имя сервера входящей почты.</string>
       <string id="mail_smtpservers">Cписок SMTP серверов</string>
       <string id="mail_smtpservers_Explain">Ввести список существующих SMTP серверов, разделенных запятыми. Если его нет, SMTP сервер игнорируется.</string>
       <string id="mail_smtpserver_smtp1_hostname">Имя сервера исходящей почты</string>
-      <string id="mail_smtpserver_smtp1_hostname_Explain">Задать имя сервера исходящей почты</string>
+      <string id="mail_smtpserver_smtp1_hostname_Explain">Задать имя сервера исходящей почты.</string>
       <string id="mail_server_server1_type">Тип сервера входящей почты</string>
       <string id="mail_server_server1_type_Explain">Ввести тип сервера входящей почты. IMAP для учетных записей IMAP, pop3 для учетных записей POP. Расширение веб-почты использует «pop3», когда эмулирует учетную запись POP3. Учетная запись локальной папки имеет пустую строку.</string>
       <string id="mail_server_server1_port">Порт сервера входящей почты</string>
-      <string id="mail_server_server1_port_Explain">Введите порт сервера входящей почты</string>
+      <string id="mail_server_server1_port_Explain">Введите порт сервера входящей почты.</string>
+      <string id="mail_smtpserver_smtp1_try_ssl">Защита соединения сервера исходящей почты</string>
+      <string id="mail_smtpserver_smtp1_try_ssl_Explain">Выбрать защиту соединения сервера исходящей почты.</string>
       <string id="Proxy_Locked">Do not allow proxy settings to be changed</string>
       <string id="Proxy_Locked_Explain">If this policy is enabled, proxy settings cannot be changed by the user.
 
@@ -1380,6 +1385,11 @@ https://github.com/mozilla/policy-templates/blob/master/README.md#preferences.</
       </presentation>
       <presentation id="Proxy_ConnectionType">
         <dropdownList refId="Proxy_ConnectionType"/>
+      </presentation>
+      <presentation id="mail_smtpserver_smtp1_try_ssl-pr">
+        <dropdownList refId="mail_smtpserver_smtp1_try_ssl_setter"/>
+          <label>Выбрать защиту соединения</label>
+        </textBox>
       </presentation>
       <presentation id="Proxy_HTTPProxy">
         <textBox refId="Proxy_HTTPProxy">
